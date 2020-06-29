@@ -2,9 +2,9 @@ def badge_maker(name)
   puts "Hello, my name is #{name}."
 end
 
-def batch_badge_creator(arr_name)
-  new_arr = []
-  arr_name.each do |human|
+def batch_badge_creator(arr)
+  arr = []
+  arr.each do |human|
   new_arr << badge_maker(human)
   end
   new_arr
