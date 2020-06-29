@@ -7,4 +7,6 @@ def batch_badge_creator(arr_name)
   arr_name.each do |person|
     new_arr << badge_maker(person)
   end
-  
+  new_arr
+end
+
