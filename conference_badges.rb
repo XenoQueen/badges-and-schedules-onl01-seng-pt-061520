@@ -10,10 +10,10 @@ def batch_badge_creator(arr_name)
   new_arr
 end
 
-def assign_rooms(list_of_speakers)
+def assign_rooms(list)
   new_arr = []
-  list_of_speakers.each.with_index(1) do |speaker, idx|
-    new_arr << "Hello, #{speaker}! You'll be assigned to room #{idx}!"
+  list.each.with_index(1) do |speaker, num|
+    new_arr << "Hello, #{speaker}! You'll be assigned to room #{num}!"
   end
   new_arr
 end
